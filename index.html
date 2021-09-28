@@ -1,15 +1,60 @@
 <!DOCTYPE html>
-<html lang="cs">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Chess</title>
+  </head>
 
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Šachy</title>
-</head>
+  <body>
+    <h1>Chess</h1>
+    <div class="players">
+      <div class="white-player players-flex">
+        <img src="obrazky/hraci/honza.jpg" alt="" />
+        <div class="player-info white-player-align">
+          <h3>Honza</h3>
+          <p>white player</p>
+        </div>
+      </div>
 
-<body>
-	<h1>Šachy</h1>
-</body>
+      <div class="black-player players-flex">
+        <img src="obrazky/hraci/adela.jpg" alt="" />
+        <div class="player-info black-player-align">
+          <h3>Adéla</h3>
+          <p>black player</p>
+        </div>
+      </div>
+    </div>
 
+    <section class="chessboard">
+      <img src="obrazky/figurky/kral-bila.svg" alt="chess figure king white" />
+      <img src="obrazky/figurky/kral-cerna.svg" alt="chess figure king black" />
+      <img src="obrazky/figurky/kun-bila.svg" alt="chess figure horse white" />
+      <img src="obrazky/figurky/pesec-bila.svg" alt="chess figure pawn white" />
+      <img
+        src="obrazky/figurky/pesec-cerna.svg"
+        alt="chess figure pewn black"
+      />
+      <img
+        src="obrazky/figurky/pesec-cerna.svg"
+        alt="chess figure pawn black"
+      />
+      <img
+        src="obrazky/figurky/pesec-cerna.svg"
+        alt="chess figure pawn black"
+      />
+      <img
+        src="obrazky/figurky/strelec-cerna.svg"
+        alt="chess figure bishop black"
+      />
+      <img src="obrazky/figurky/vez-cerna.svg" alt="chess figure tower black" />
+    </section>
+
+    <footer>
+      <p>Black is the winner!</p>
+      <button>Play again</button>
+    </footer>
+  </body>
 </html>
